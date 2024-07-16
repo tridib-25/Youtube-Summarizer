@@ -1,0 +1,82 @@
+Manual transcript
+
+1. harman singh
+https://www.youtube.com/watch?v=Wn9iALMyS7c
+best --> nltk --> M(.52) R(.92) B(.6-.99) 
+ok --> spacy --> M(.24) R(.24) B(.6-.97)
+ok --> pegasus --> M(.09) R(.13) B(.58-.83)
+bad --> bart --> M(.04) R(.13) B(.59-.85)
+
+
+2. Story of rani laxmibai
+https://youtu.be/qVtoQAO4lLU?si=yQJerD1ucTfrOArP
+bad --> nltk -->M(0.2) rouge
+bad --> nlp --> met rouge
+
+
+3. tedx-- how hitler rise to power
+https://www.youtube.com/watch?v=jFICRFKtAc4
+ok --> nltk --> (0.3 avg) met rouge
+bad --> nlp spacy --> met rouge
+
+4. ugly truth of gandhi
+https://www.youtube.com/watch?v=Gfj5f0GVLZ0
+bad --> nltk
+bad --> nlp spacy
+
+5. Home alone movie review
+https://www.youtube.com/watch?v=biXUMrQqdv8
+bleh --> bart --> R(.15) B(.6-.7) M(.01)
+ok --> spacy --> rouge(.21) bert(.6-.9) met(.08)
+ok --> nltk + peg --> R(.3) B(.6-.8) M(.04)
+very good --> nltk --> rouge(.79) bert (.6) bertint(.99) && meteor(.09)
+very good --> pegasus --> R(.83) B(.6-.9) && M(.03)
+
+6.The Misconceptions Of Fruits Basket
+https://youtu.be/k14RpWAhIN8?si=JIqvzEjrdIMMtjbp
+very good --> nltk --> R(.53) M(.35) B(.636-.96)
+good --> spacy --> R(.68) M(.23) B(.6-.97)
+good --> pegasus --> R(.53) M(.05) B(.6-.9)
+
+
+
+Auto-generated
+
+1. AGI has been ACHIEVED: Q* announced for ChatGPT.
+https://youtu.be/qVtoQAO4lLU?si=yQJerD1ucTfrOArP
+    good --> nlp_spacy + meteor , bertScore_basic
+    bad --> (nltk + pegasus) or (pegasus) or (bert) + met ,rouge
+    nltk not working
+
+2. coded 4 hours everyday for 1 year. And it changed my life.
+https://www.youtube.com/watch?v=6dpF_G3yMMQ
+    good --> nlp_spacy + meteor , bertScore_basic
+    bad --> nltk not working
+
+3. adolf hitler
+https://www.youtube.com/watch?v=6XnsYZxH2nI
+nltk --> not working
+bad --> nlp --> met rouge
+
+
+4. jagdish chandra bose bio
+https://www.youtube.com/watch?v=4RCzuLPBBk0
+nltk --> not working
+extreme accurate --> nlp spacy all 1 score
+
+5. Spotify engineering culture
+https://www.youtube.com/watch?v=4GK1NDTWbkY
+good --> spacy --> M(.6) R(.15) B(.6-.9)
+ok --> pegasus --> R(.3) B(.6-.9) M(.06)
+bad --> bart --> R(.06) B(.6-.7) M(.01)
+nltk not working + bertScore  error
+
+
+ASR
+
+1.
+https://www.youtube.com/watch?v=e0HlQh-hwyE
+spacy -->M .36  R(.23)  B(.6-.9)
+nltk--> M(.15) R(.15) B(.6-.9)
+peg --> M & R (.05) B(.6-.7)
+bart --> M & R (.07) B same

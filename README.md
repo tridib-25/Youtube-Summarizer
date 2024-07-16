@@ -1,41 +1,34 @@
-# Youtube-Summarizer : Project Overview
+#project  overview
+pip install -r requirements.txt
 
-This project provides a streamlined way to generate concise summaries from YouTube videos. Follow the steps below to set up and run the application.
+to run application:
+streamlit run main.py
 
-### Installation
-
-To install the required dependencies, run : **pip install -r requirements.txt**
-
-### Running the Application
-
-To start the application, use : **streamlit run main.py**
-
-### Steps
-
+Steps:
 1. Extract Transcript
-    * Directly from YouTube API
-    * Automatic Speech Recognition (ASR)
-        * Using the Whisper OpenAI model (resource-intensive)
-2. Transcript Summarization
-    * Abstractive Summarization
-        * Using Pegasus
-    * Extractive Summarization
-        * Using NLTK
-        * Using SpaCy
-3. Metrics (To Validate Accuracy)
-    * BertScore
-    * ROUGE
-    * METEOR
+    - A. Directly from yt API
+    - B. ASR(Automatic speech recognition)
+        - i. Whisper OpenAI model (heavy)
+2. Transcript summarization
+    - A. Abstractive
+        - i. Pegasus
+    - B. Extractive
+        - i. nltk
+        - ii. Spacy
+3. Metrics(To validate accuracy)
+     - A. BertScore
+     - B. Rogue
+     - C. Meteor
+  
+Screenshot:
+![image](https://github.com/shrutiiigupta/youtube-summarizer/assets/98140693/406c7b46-149a-4157-8b58-f493d5d3571e)
 
-### Screenshot
 
-<img width="1433" alt="Screenshot 2024-07-16 at 2 05 39 PM" src="https://github.com/user-attachments/assets/ee372245-e2a8-4dfc-a388-c4e381f58597">
 
-<img width="1432" alt="Screenshot 2024-07-16 at 2 06 37 PM" src="https://github.com/user-attachments/assets/45e007fd-8551-406b-9f7c-ae9972494b09">
-
-The Authors of this project are :
-
+The Authors of this project are:
 1. [Sanjeevani Lakade](https://github.com/sanjeevani-25)
 2. [Shruti Gupta](https://github.com/shrutiiigupta)
 3. [Spruha Thorat](https://github.com/Spruha017)
 4. [Tridib Nandi](https://github.com/tridib-25)
+
+    

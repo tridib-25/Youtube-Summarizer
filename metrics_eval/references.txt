@@ -1,0 +1,19 @@
+1. https://medium.com/@raphael.mansuy/evaluating-the-performance-of-natural-language-processing-nlp-models-can-be-challenging-ce6f62c07c35
+
+2. https://medium.com/@priyankads/evaluation-metrics-in-natural-language-processing-bleu-dc3cfa8faaa5
+
+3. https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb
+
+4. https://medium.com/@oscararmas_81971/bleu-a-method-for-automatic-evaluation-of-machine-translation-3339e2efb2ff
+
+5. https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86
+
+6. https://haticeozbolat17.medium.com/text-summarization-how-to-calculate-bertscore-771a51022964#:~:text=BERTScore%20Architecture&text=Step%203%3A%20Token%20Matching%20for,to%20calculate%20the%20F1%20score.
+
+7. https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499
+
+8. https://fabianofalcao.medium.com/metrics-for-evaluating-summarization-of-texts-performed-by-transformers-how-to-evaluate-the-b3ce68a309c3
+
+9. https://medium.com/@mikeusru/common-metrics-for-evaluating-natural-language-processing-nlp-models-e84190063b5f
+
+10. https://fabianofalcao.medium.com/metrics-for-evaluating-summarization-of-texts-performed-by-transformers-how-to-evaluate-the-b3ce68a309c3
