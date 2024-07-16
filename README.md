@@ -36,6 +36,6 @@ To start the application, use : **streamlit run main.py**
 The Authors of this project are :
 
 1. @ sanjeevani-25
-2. @ shrutiiigupta
+2. [@shrutiiigupta] (https://www.github.com/username)
 3. @ Spruha017
 4. @ tridib-25
