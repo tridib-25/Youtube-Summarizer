@@ -1,2 +1,30 @@
-# Youtube-Summrizer
-Ever found yourself staring at a lengthy YouTube video, wondering if it's worth your time? We get it – your time is precious, and not every video is a gem. That's why we're here to offer you the ultimate solution: quick and concise video summaries!
+# Youtube-Summarizer : Project Overview
+
+This project provides a streamlined way to generate concise summaries from YouTube videos. Follow the steps below to set up and run the application.
+
+###Installation
+
+To install the required dependencies, run:
+pip install -r requirements.txt
+
+###Running the Application
+
+To start the application, use:
+streamlit run main.py
+
+###Steps
+
+* Extract Transcript
+    * Directly from YouTube API
+    * Automatic Speech Recognition (ASR)
+        * Using the Whisper OpenAI model (resource-intensive)
+* Transcript Summarization
+    * Abstractive Summarization
+        * Using Pegasus
+    * Extractive Summarization
+        * Using NLTK
+        * Using SpaCy
+* Metrics (To Validate Accuracy)
+    * BertScore
+    * ROUGE
+    * METEOR
