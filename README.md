@@ -15,7 +15,7 @@ To start the application, use : **streamlit run main.py**
 1. Extract Transcript
    * Directly from YouTube API
    * Automatic Speech Recognition (ASR)
-   * Using the Whisper OpenAI model (resource-intensive)
+     * Using the Whisper OpenAI model (resource-intensive)
    
 3. Transcript Summarization
    * Abstractive Summarization
