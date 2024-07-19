@@ -4,11 +4,17 @@ This project provides a streamlined way to generate concise summaries from YouTu
 
 ### Installation
 
-To install the required dependencies, run : **pip install -r requirements.txt**
+To install the required dependencies, run : 
+```bash
+pip install -r requirements.txt
+```
 
 ### Running the Application
 
-To start the application, use : **streamlit run main.py**
+To start the application, use : 
+```bash
+streamlit run main.py
+```
 
 ### Steps
 
